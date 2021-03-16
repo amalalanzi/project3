@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cairo');  /*الخط*/
+
+body{
+background-image: url("IMG_0422.jpg");
+background-repeat: no-repeat;
+background-size: 1500px;
+
+}
+* { /* للتهيئه*/
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif;
+  -webkit-font-smoothing: antialiased; /* تعطي جماليه اكبر للخط*/
+  -moz-osx-font-smoothing: grayscale;
+}
+h2 {
+  font-size: 38px;
+  color :gray;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    background: silver;
+  }
+  #c h2 ,#contact h2{
+    font-size: 45px;
+      color:gray;
+      font-weight: lighter;
+      font-weight: bold;
+      background: -webkit-linear-gradient(black, black);
+          text-shadow:
+          0 0 10px whitesmoke,
+      		0 0 30px white,
+      		0 0 50px white,
+      		0 0 90px white;
+    -webkit-background-clip: text;
+
+  }
+h3{
+  font-size: 30px;
+  color :gray;
+  background: -webkit-linear-gradient(#fcd024, grey);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+a {
+  text-decoration: none;
+  color: gray;
+  -webkit-transition: 0.5s;
+    transition: 0.5s;
+  } a:hover{
+  color: DarkGoldenRod ;
+ }
+
+
+
+#contener {
+  width: 100%;
+  margin: 0 auto;
+}
+#menuu{
+  position: absolute;
+    z-index: 1;
+    top:0px;
+  height: 70px;
+  width: 100%;
+  color: gray;
+ position:fixed;
+   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+ background-color: #DEB887 ;
+}
+#logo{
+ float: left;
+ margin-right: 30px;
+}
+.menu-all .menu {
+  float: right;
+  padding: 20px;
+  list-style-type: none;
+  margin-top: 10px;
+  line-height: 20px;
+  font-size: 20px;
+}
+.menu-all{
+   font-style: oblique;
+
+float: right;
+}
