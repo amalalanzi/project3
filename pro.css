@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Cairo');  /*الخط*/
 
 body{
-background-image: url("IMG_0422.jpg");
+background-image: url("img8.jpg");
 background-repeat: no-repeat;
-background-size: 1500px;
+background-size: cover;
 
 }
 * { /* للتهيئه*/
@@ -95,3 +95,140 @@ a {
 
 float: right;
 }
+
+
+/*تنسيق الصورة الرئيسية*/
+
+#hero{
+  height: 1500px;
+  width: 90%;
+  right:  90px;
+  background-image: url("br.jpg");
+  margin-top: 30px;
+  background-repeat:no-repeat;
+  background-size: contain;
+margin: 40px;
+float: right;
+}
+
+#c {
+  position: absolute;
+ height: 20px;
+ width: 1000px;
+ padding: 10px;
+ border-radius: 12px;
+ bottom:25%;
+right: 50px;
+ bottom: 150px;
+ text-align: center;
+}
+
+ #c1{
+   right: : 500px;
+  position:absolute;
+  text-align: center;
+  -webkit-animation-duration: .7s;
+  -webkit-animation-delay: .2s;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: both;
+  animation-name: text1;
+}
+#c1 h3{
+  font-size: 25px;
+  color : gray;
+  background: -webkit-linear-gradient(#DEB887, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+@keyframes text1 {
+  0% {
+      opacity: 0;
+      transform: translateY(10%);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+#icon{
+  float:left;
+  margin-left: 100px;
+}
+#home{
+  position: absolute;
+  top:0px;}
+
+  /*تنسيق السكشن الاول*/
+  #history{
+    position: absolute;
+    top:400%;}
+    #about {
+    text-align: center;
+    padding-top: 0px;
+    bottom: 500px;
+    width: 900px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    -webkit-animation-duration: .7s;
+    -webkit-animation-delay: .2s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: both;
+    animation-name: text1;
+
+    }
+
+     #about ,.cta{
+      position: absolute;
+      float: right;
+      top: 140%;
+      left: 600px;
+      margin-right: 260px;}
+  .cta{
+    display: block;
+    width: 150px;
+    top: 240px;
+    left: 350px;
+    height: 50px;
+    margin: 30px;
+    padding-top: 5px;
+    border-radius: 30px;
+    background-color:#DEB887 ;
+    color: white;
+    font-size: 130%;
+    box-shadow: 0 5px  grey;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.08s;
+  }
+  .cta:hover{
+  background-color: gray;
+  box-shadow: 1px 2px grey;
+  color:white;
+  }
+   .cta:active{
+    box-shadow: 0px 0px grey;
+    transform: translateY(5px);
+  }.cta a{
+    color:white;
+  }
+  .about-p{
+    padding-top: 10px;
+    line-height: 1.9;
+    font-size: 20px;
+  }
+  #img6{
+display: block;
+position: absolute;
+text-align: left;
+bottom: 90px;
+top: 130%;
+height: 100px;
+margin: 50px;
+border: 0 auto;
+padding: 0 auto;
+  }
