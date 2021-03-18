@@ -3,7 +3,7 @@
 
 body{
 background-image: url("img8.jpg");
-background-repeat: no-repeat;
+background-repeat: repeat;
 background-size: cover;
 
 }
@@ -124,7 +124,7 @@ right: 50px;
 }
 
  #c1{
-   right: : 500px;
+   right:  300px;
   position:absolute;
   text-align: center;
   -webkit-animation-duration: .7s;
@@ -163,7 +163,7 @@ right: 50px;
   /*تنسيق السكشن الاول*/
   #history{
     position: absolute;
-    top:400%;}
+    top:800px;}
     #about {
     text-align: center;
     padding-top: 0px;
@@ -229,6 +229,88 @@ bottom: 90px;
 top: 130%;
 height: 100px;
 margin: 50px;
-border: 0 auto;
-padding: 0 auto;
+border: 0 ;
+padding: 0 ;
   }
+
+.fasl{
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    top: 820px;
+    right: 0px;
+  text-align: right;
+  }
+
+/* التعلم تنسيق السكشن الثالث*/
+#letters{
+  position: absolute;
+  top:400%;}
+  #about2 {
+  text-align: center;
+  padding-top: 0px;
+  position: absolute;
+  top: 400%;
+  right:20px;
+  left: 20px;
+  bottom: 100%;
+  width: 900px;
+  height:60px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  -webkit-animation-duration: .7s;
+  -webkit-animation-delay: .2s;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: both;
+  animation-name: text1;
+}
+.about-p2{
+  padding-top: 10px;
+  line-height: 1.9;
+  font-size: 20px;
+}
+.accord{
+  width: 800px;
+  display: block;
+  position: absolute;
+  bottom: 500px;
+  top: 900%;
+  left: 7%;
+  margin: auto;
+  height: 450px;
+  text-align: center;
+}
+
+.accord li {
+  width: 266px;
+  display: block;
+  position: relative;
+  float: left;
+  border-left: 1px solid #DDD;
+  transition: all 0.5s;
+}
+
+.titl{
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  left: 0;
+  bottom: 0 ;
+  width: 750px;
+}
+
+.titl a{
+  display: block;
+  color: #fff;
+  padding: 20px;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: left;
+}
+.accord ul:hover li{
+  width: 40px;
+}
+.accord ul li:hover{
+  width: 640px;
+}
