@@ -102,13 +102,13 @@ float: right;
 #hero{
   height: 1500px;
   width: 90%;
-  right:  90px;
+  right:  70px;
   background-image: url("br.jpg");
   margin-top: 30px;
   background-repeat:no-repeat;
   background-size: contain;
-margin: 40px;
-float: right;
+margin: 0 auto;
+
 }
 
 #c {
@@ -124,7 +124,7 @@ right: 50px;
 }
 
  #c1{
-   right:  300px;
+   right: 300px;
   position:absolute;
   text-align: center;
   -webkit-animation-duration: .7s;
@@ -237,20 +237,86 @@ padding: 0 ;
     display: block;
     position: absolute;
     bottom: 10px;
-    top: 820px;
+    top: 850px;
     right: 0px;
+    left: 0px;
   text-align: right;
   }
 
+
+  /*  السكشن الثاني الطريقة  */
+  #tre {
+    position: absolute;
+    top: 183%; }
+  #amm{
+    text-align: center;
+    background-image: url("fasl7.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    display: block;
+    position: absolute;
+    top: 210%;
+    width: 100%;
+    height: 420px;
+    padding: 20px;
+  }
+  #amm1{
+    width: 100%;
+    height: 100%;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  border: 20px;
+  padding: 30px;
+  font-size: 25px;
+  color: white;
+  font-style: italic;
+  font-weight: bolder;
+  }
+
+  #amm2{
+    color :white;
+    background: -webkit-linear-gradient(#737373, #A0522D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+   .ctta{
+     display: block;
+     position: absolute;
+     width: 150px;
+     top: 280px;
+     left: 44%;
+     height: 50px;
+     margin: 0 auto;
+     padding-top: 5px;
+     border-radius: 30px;
+     background-color:#DEB887 ;
+     color: white;
+     font-size: 130%;
+     box-shadow: 0 5px  grey;
+     border: none;
+     cursor: pointer;
+     transition-duration: 0.08s;
+  }
+  .ctta:hover{
+  background-color: gray;
+  box-shadow: 1px 2px grey;
+  color:white;
+  }
+   .ctta:active{
+    box-shadow: 0px 0px grey;
+    transform: translateY(5px);
+  }
 /* التعلم تنسيق السكشن الثالث*/
 #letters{
   position: absolute;
-  top:400%;}
+  top:270%;}
   #about2 {
   text-align: center;
   padding-top: 0px;
   position: absolute;
-  top: 400%;
+  top: 275%;
   right:20px;
   left: 20px;
   bottom: 100%;
@@ -276,10 +342,11 @@ padding: 0 ;
   display: block;
   position: absolute;
   bottom: 500px;
-  top: 900%;
+  top: 650%;
   left: 7%;
   margin: auto;
   height: 450px;
+
   text-align: center;
 }
 
@@ -314,3 +381,74 @@ padding: 0 ;
 .accord ul li:hover{
   width: 640px;
 }
+
+
+
+/* للتواصل  */
+#contact1{
+  position: absolute;
+  top: 375%;
+}
+.amm3{
+  text-align: center;
+  background-image: url("fasl8.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  display: block;
+  position: absolute;
+  top: 400%;
+  width: 100%;
+  height: 420px;
+  padding: 20px;
+
+}
+.row3{
+  display: block;
+  position: absolute;
+  top: 20%;
+  left: 60px;
+  width: 90%;
+  height: 150%;
+  margin: 0 auto;
+  margin-top: 20px;
+} .co1{
+width: 45%;
+float: right;
+padding: 10px;
+margin-right: 3%;
+}.col-left1{
+margin-left: 1%;
+}
+
+#name, #email,#subject,#message{
+  text-align: right;
+}
+
+.amm3 .cta{
+  display: block;
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  right: 350px;}
+
+input[type=text],[type=email] ,textarea {
+    width: 480px;
+    padding: 15px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    margin: 5px 0;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+}
+input[type=submit]{
+  padding-bottom: 15px;
+}
+input[type=submit]:hover{
+color: DarkGoldenRod ;
+}
+.input:focus{
+  box-shadow: 0 0 5px 2px #fcd024;
+   }
