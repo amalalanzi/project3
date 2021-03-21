@@ -245,7 +245,7 @@ padding: 0 ;
 
 
   /*  السكشن الثاني الطريقة  */
-  #tre {
+  #t {
     position: absolute;
     top: 183%; }
   #amm{
@@ -408,9 +408,9 @@ padding: 0 ;
   top: 20%;
   left: 60px;
   width: 90%;
-  height: 150%;
+  height: 100%;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 10px;
 } .co1{
 width: 45%;
 float: right;
@@ -452,3 +452,11 @@ color: DarkGoldenRod ;
 .input:focus{
   box-shadow: 0 0 5px 2px #fcd024;
    }
+
+.contact2{
+  display: block;
+  position: absolute;
+  top: 450%;
+  right: 46%;
+  font-size: 100px;
+}
